@@ -24,13 +24,13 @@ function Feautures() {
               <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
               <i class="ri-sun-line"></i>
               <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="500">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
               <i class="ri-store-line"></i>
               <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>

@@ -229,10 +229,10 @@
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #c20909;
+    border: 2px solid #ffee00;
   }
   #hero .btn-get-started:hover {
-    background: #c20909;
+    background: #fce301;
     color: #fff;
     text-decoration: none;
   }
