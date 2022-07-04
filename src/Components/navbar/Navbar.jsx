@@ -1,6 +1,8 @@
 //import "./navbar.css";
 import { Link } from "react-router-dom";
 import logo from "./logo.png"
+
+import flag from "./spain.png"
 const Navbar = () => {
 
 
@@ -18,6 +20,7 @@ const Navbar = () => {
                 <img src={logo} alt="" className=" img-fluid logo" />
             </h1>
         </Link>
+        <img src={flag} alt="" className='spainflag' />
         
             
         

@@ -1,5 +1,7 @@
 import React from 'react'
-import flag from "./spain.png"
+import slider1 from  "./slider1.jpg";
+import slider2 from  "./slider2.jpg";
+import slider3 from  "./slider3.jpg";
 
 function Header() {
   return (
@@ -7,45 +9,56 @@ function Header() {
     {/* <!-- ======= Hero Section ======= --> */}
     <div className="">
 
-  <section id="hero" class="d-flex flex-column justify-content-end align-items-center container-fluid header bg-white p-0">
-    <img src={flag} alt="" className='spainflag' />
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center container-fluid header p-0">
+    
+    <div className="row container-fluid d-flex text-center">
+        <div className="col-md-6">
+
     <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
       {/* <!-- Slide 1 --> */}
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          {/* <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2> */}
+          <img src={slider1} alt="" className='slideimg animate__animated fanimate__adeInUp'  />
+          
         </div>
       </div>
 
       {/* <!-- Slide 2 --> */}
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+      <div class="carousel-item" >
+        <div class="carousel-container"Style="nackgound-image: url(../img/slider1.jpg)!important;
+     background-size: cover !important;">
+          {/* <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2> */}
+        
+            <img src={slider3} alt="" className='slideimg animate__animated animate__fadeInUp'  />
+          
         </div>
       </div>
 
       {/* <!-- Slide 3 --> */}
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          {/* <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2> */}
+         <img src={slider2} alt="" className='slideimg animate__animated animate__fadeInUp'  />
         </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
       </a>
 
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
       </a>
+      </div>
 
+      
+
+    </div>
+        </div>
+        <div className="col-md-6 d-flex justify-content-center align-items-center  ">
+            <h1 className='text-light'> Change Your life Today</h1>
+            
+        </div>
     </div>
 
     <svg className="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
