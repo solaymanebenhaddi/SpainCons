@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a href="index.html" className="nav-item nav-link active">Home</a>
                 <a href="about.html" className="nav-item nav-link">About</a>
                 <div className="nav-item dropdown">
-                    <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
+                    <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Real estate investment</a>
                     <div className="dropdown-menu rounded-0 m-0">
                         <a href="/#" className="dropdown-item">Villas</a>
                         <a href="/#" className="dropdown-item">Appartement</a>
@@ -40,7 +40,8 @@ const Navbar = () => {
                         <a href="/#" className="dropdown-item">Lands</a>
                     </div>
                 </div>
-                <a href="contact.html" className="nav-item nav-link">Contact</a>
+                <a href="contact.html" className="nav-item nav-link">Tourism in Spain</a>
+                <a href="contact.html" className="nav-item nav-link">Spanish residency</a>
             </div>
             {/* {user ? user.username : (
           <div className="navItems">

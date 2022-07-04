@@ -244,8 +244,45 @@
    width: 60px;
    height: 70px;
   }
+  #hero h4{
+    font-family: "Gentium Book Plus";
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: #ececf1;
+     background-color: #00000070;
+     border-radius: 9px;
+  }
+
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
   
   @media (min-width: 1024px) {
+    #hero .carousel-container {
+        height: 93vh;
+      }
     #hero p {
       width: 60%;
     }
@@ -255,7 +292,7 @@
   }
   @media (max-width: 768px) {
     #hero .carousel-container {
-      height: 90vh;
+      height: 98vh;
     }
     #hero h2 {
       font-size: 28px;

@@ -2,6 +2,8 @@ import React from 'react'
 import slider1 from  "./slider1.jpg";
 import slider2 from  "./slider2.jpg";
 import slider3 from  "./slider3.jpg";
+import slider4 from  "./slider4.jpg";
+import slider5 from  "./slider5.jpg";
 
 function Header() {
   return (
@@ -14,19 +16,19 @@ function Header() {
     <div className="row container-fluid d-flex text-center">
         <div className="col-md-6">
 
-    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade " data-bs-ride="carousel">
 
       {/* <!-- Slide 1 --> */}
-      <div class="carousel-item active">
+      <div class=" animated carousel-item active ">
         <div class="carousel-container">
           {/* <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2> */}
-          <img src={slider1} alt="" className='slideimg animate__animated fanimate__adeInUp'  />
+          <img src={slider1} alt="" className='slideimg animate__animated fanimate__adeInUp '  />
           
         </div>
       </div>
 
       {/* <!-- Slide 2 --> */}
-      <div class="carousel-item" >
+      <div class="animated carousel-item" >
         <div class="carousel-container"Style="nackgound-image: url(../img/slider1.jpg)!important;
      background-size: cover !important;">
           {/* <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2> */}
@@ -37,10 +39,38 @@ function Header() {
       </div>
 
       {/* <!-- Slide 3 --> */}
-      <div class="carousel-item">
+      <div class=" animated carousel-item">
         <div class="carousel-container">
           {/* <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2> */}
          <img src={slider2} alt="" className='slideimg animate__animated animate__fadeInUp'  />
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+      </div>
+
+      <div class="animated carousel-item">
+        <div class="carousel-container">
+          {/* <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2> */}
+         <img src={slider4} alt="" className='slideimg animate__animated animate__fadeInUp'  />
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+      </div>
+
+      <div class="animated carousel-item">
+        <div class="carousel-container">
+          {/* <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2> */}
+         <img src={slider5} alt="" className='slideimg animate__animated animate__fadeInUp'  />
         </div>
         <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
@@ -55,8 +85,13 @@ function Header() {
 
     </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-center align-items-center  ">
-            <h1 className='text-light'> Change Your life Today</h1>
+        <div className="col-md-6 d-flex justify-content-center align-items-center flex-column  ">
+            <h1 className='text-light ' data-aos="zoom-in" data-aos-delay="100">Start Your Investement and Change Your life</h1>
+            <h6 className='text-light' data-aos="zoom-in" data-aos-delay="350">We will help you to Begin your futur life with your family in Spain.  </h6>
+            <h4 className='my-5  text-light ' data-aos="zoom-in" data-aos-delay="450">Our team has the best skills and experiences to provide you with all kind of services to start yourbusiness in spain and to stabilise with your family too in spain.</h4>
+            <a href="/" className='btn-get-started'><strong>BOOK Now</strong></a>
+            
+            
             
         </div>
     </div>
