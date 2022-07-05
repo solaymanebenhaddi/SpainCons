@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-function Services() {
+function ImpoExpo() {
   return (
     <div>
         <section id="services" class="services">
@@ -9,7 +8,7 @@ function Services() {
 
         <div class="section-title" data-aos="zoom-out">
           <h2>Services</h2>
-          <p>Tourism in Spain</p>
+          <p>Import and Export</p>
         </div>
 
         <div class="row">
@@ -65,4 +64,4 @@ function Services() {
   )
 }
 
-export default Services
+export default ImpoExpo

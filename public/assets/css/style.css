@@ -4,7 +4,9 @@
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
-
+body{
+    background-color: #ffffff;
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -111,12 +113,13 @@
 .navbar-dark .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
-    font-size: 15px;
+    color: #313131;
+    font-size: 10px;
+    font-weight: 700;
     text-transform: uppercase;
     outline: none;
-    font-family: 'Playfair Display';
-    font-weight: 400;
+    font-family:'Playfair Display' !important;
+   
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -239,8 +242,8 @@
   }
   .navbar .spainflag{
    position: absolute;
-   top: 130px;
-   left: 50px;
+   top: 30px;
+   left: 250px;
    width: 60px;
    height: 70px;
   }
@@ -252,6 +255,13 @@
     text-shadow: #ececf1;
      background-color: #00000070;
      border-radius: 9px;
+     margin-top: 8rem !important;
+  }
+  #hero h1{
+    font-family: "Gentium Book Plus";
+    font-weight: 700;
+     margin-top: 8rem !important;
+     color: #000000 !important;
   }
 
   #hero .animated {
@@ -627,8 +637,8 @@
     height: 100%;
   }
   .services .icon-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+    transform: scale(0.1);
+    box-shadow: 0 2px 10px 0 rgba(68, 88, 144, 0.2);
   }
   .services .icon {
     position: absolute;

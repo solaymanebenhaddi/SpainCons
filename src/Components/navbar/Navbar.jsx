@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
                 <a href="index.html" className="nav-item nav-link active">Home</a>
-                <a href="about.html" className="nav-item nav-link">About</a>
+                <a href="about.html" className="nav-item nav-link">About Us</a>
                 <div className="nav-item dropdown">
                     <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Real estate investment</a>
                     <div className="dropdown-menu rounded-0 m-0">
@@ -40,8 +40,10 @@ const Navbar = () => {
                         <a href="/#" className="dropdown-item">Lands</a>
                     </div>
                 </div>
+                <a href="contact.html" className="nav-item nav-link">Import and Export</a>
                 <a href="contact.html" className="nav-item nav-link">Tourism in Spain</a>
                 <a href="contact.html" className="nav-item nav-link">Spanish residency</a>
+                <a href="contact.html" className="nav-item nav-link">Contact Us</a>
             </div>
             {/* {user ? user.username : (
           <div className="navItems">

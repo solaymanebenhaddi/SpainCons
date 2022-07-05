@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 import Feautures from "../Components/features/Feautures";
 import Services from "../Components/services/Services";
 import Footer from "../Components/footer/Footer";
+import ImpoExpo from "../Components/ImportExpo/ImpoExpo";
+import Residancy from "../Components/residancy/Residancy";
 
 
 
@@ -24,6 +26,8 @@ const Home = () => {
      <About/>
      <Feautures/>
      <Services/>
+     <ImpoExpo/>
+     <Residancy/>
      </main>
      <Footer/>
      </div>
