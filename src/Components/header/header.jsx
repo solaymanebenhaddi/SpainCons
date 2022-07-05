@@ -87,8 +87,8 @@ function Header() {
         </div>
         <div className="col-md-6 d-flex justify-content-center align-items-center flex-column pt-5  ">
             <h1 className='text-light ' data-aos="zoom-in" data-aos-delay="100">Start Your Investement Today and Change Your life</h1>
-            <h6 className='text-dark' data-aos="zoom-in" data-aos-delay="350">We will help you to Begin your futur life with your family in Spain.  </h6>
-            <h4 className='my-5  text-light ' data-aos="zoom-in" data-aos-delay="450">Our team has the best skills and experiences to provide you with all kind of services to start yourbusiness in spain and to stabilise with your family too in spain.</h4>
+            <h6 className='text-warning' data-aos="zoom-in" data-aos-delay="350">We will help you to Begin your futur life with your family in Spain.  </h6>
+            <h4 className='my-2  text-light ' data-aos="zoom-in" data-aos-delay="450">Our team has the best skills and experiences to provide you with all kind of services to start yourbusiness in spain and to stabilise with your family too in spain.</h4>
             <a href="/" className='btn-get-started'><strong>BOOK Now</strong></a>
             
             
