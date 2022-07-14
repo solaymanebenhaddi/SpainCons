@@ -45,7 +45,7 @@ function Services() {
         <div className="row my-5">
 
           <div className="col-lg-4 col-md-6">
-            <div className="icon-box border border-4 border-warning" data-aos="zoom-in-left">
+            <div className="icon-box border border-2 border-warning" data-aos="zoom-in-left">
               <div><FontAwesomeIcon icon={faCar} className='icon'/></div>
               <h4 className="title"><a href="/">VIP Transport</a></h4>
               <p className="description">
@@ -54,7 +54,7 @@ function Services() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div className="icon-box border border-4 border-warning" data-aos="zoom-in-left" data-aos-delay="100">
+            <div className="icon-box border border-2 border-warning" data-aos="zoom-in-left" data-aos-delay="100">
               <div><FontAwesomeIcon icon={faMapLocationDot} className='icon'/></div>
               <h4 className="title"><a href="/">Tours</a></h4>
               <p className="description">AREC SPAIN organise for you the most beautiful Tours around magical cities in Spain, also when u chose other destination in Europe, Our teams will give you always the best Tours with top VIP SERVICES in all your  vacance days</p>
@@ -62,7 +62,7 @@ function Services() {
           </div>
 
           <div className="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
-            <div className="icon-box border border-4 border-warning" data-aos="zoom-in-left" data-aos-delay="300">
+            <div className="icon-box border border-2 border-warning" data-aos="zoom-in-left" data-aos-delay="300">
               <div><FontAwesomeIcon icon={faHotel} className='icon'/></div>
               <h4 className="title"><a href="/">Tourist accommodation</a></h4>
               <p className="description">AREC SPAIN offers you luxury accommodation during your vacation and your tourist circuit either in Spain or throughout Europe depends on your choice of destination</p>
