@@ -239,7 +239,7 @@ These are large cargo boxes that are typically 36 feet long and 8 feet wide. The
                       <img src={f3} alt="" class="img-fluid" />
                     </div>
                   </div>
-                </div>
+                </div>  
                 <div class="tab-pane" id="tab-4">
                   <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
