@@ -31,9 +31,10 @@ function ImpoExpo() {
                       <p class="text">
                         Working many years in Exportation Services, AREC SPAIN ready to offer you the best service in the world. to develope your business localy and also around the world. 
                       </p>
-                      <a href="/#" class="button">
+                      <div><a href="/#" class="button">
                         Contact us NOW
-                      </a>
+                      </a></div>
+                      
                     </div>
                   </div>
                 </div>
