@@ -16,6 +16,13 @@ body{
 }
  a{   text-decoration: none;}
 
+ p{
+     font-size: 1.2em;
+     font-weight: 300;
+     color: #0e1318;
+     font-family: "Gentium Book Plus";
+ }
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -634,7 +641,7 @@ body{
     background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
   }
   .residance{
-    background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+    background-image: radial-gradient( circle 489px at 49.3% 46.6%,  rgba(255,214,126,1) 0%, rgba(253,200,0,1) 100.2% );
   }
   .services .icon-box {
     padding: 30px;
@@ -648,6 +655,7 @@ body{
     height: 100%;
 
   }
+
   .services p{
     color: white;
   }
@@ -684,7 +692,22 @@ body{
     margin-bottom: 0;
     color: #111;
   }
-  
+  /* -------------------- */
+  .residance .list p{
+    color: white;
+    font-size: 1em;
+  }
+  .residance .list ul{
+    list-style: none;
+    margin: auto !important;
+   width: 100%;
+  }
+  .residance .list li{
+    border-bottom: #0e1318 2px solid !important;
+    margin: 1em;
+    float: left !important;
+    width: 100%;
+  }
   /*--------------------------------------------------------------
   # Portfolio
   --------------------------------------------------------------*/
