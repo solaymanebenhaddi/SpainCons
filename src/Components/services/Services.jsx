@@ -8,7 +8,7 @@ import tours from "./tours.jpg"
 function Services() {
   return (
     <div>
-        <section id="services" className="services red">
+        <section id="Tourist" className="services red">
       <div className="container">
 
         <div className="section-title" data-aos="zoom-out">

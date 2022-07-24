@@ -9,6 +9,7 @@ import Services from "../Components/services/Services";
 import Footer from "../Components/footer/Footer";
 import ImpoExpo from "../Components/ImportExpo/ImpoExpo";
 import Residancy from "../Components/residancy/Residancy";
+import Contact from "../Components/contact/Contact";
 
 
 
@@ -28,7 +29,9 @@ const Home = () => {
      <Services/>
      <ImpoExpo/>
      <Residancy/>
+     <Contact/>
      </main>
+
      <Footer/>
      </div>
     

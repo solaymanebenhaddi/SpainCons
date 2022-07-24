@@ -83,6 +83,9 @@ body{
     padding: 0 3rem;
     transition: .5s;
     z-index: 9999;
+    font-family: "Gentium Book Plus" !important;
+    font-weight: 600 !important;
+    font-size: 1.rem !important;
     
 }
 
@@ -96,11 +99,12 @@ body{
     position: relative;
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
     border-radius: 0 0 9px 9px;
-    background: linear-gradient(90deg, rgba(255,202,2,1) 9%, rgba(246,231,6,1) 32%, rgba(241,191,0,1) 81%);
-}
+    background: hsla(0, 87%, 79%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);}
 .navbar .logo{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -121,11 +125,9 @@ body{
     margin-right: 30px;
     padding: 25px 0;
     color: #313131;
-    font-size: 10px;
-    font-weight: 700;
     text-transform: uppercase;
     outline: none;
-    font-family:'Roboto' !important;
+    /* font-family:'Roboto' !important; */
    
 }
 
@@ -150,11 +152,7 @@ body{
     }
 }
 
-.navbar .navbar-brand>h1 {
-   
-    font-family: 'Playfair Display' !important;
-    font-weight: 700 !important;
-}
+
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
@@ -524,7 +522,7 @@ body{
     padding: 15px;
     transition: 0.3s;
     color: #2a2c39;
-    border-radius: 0;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -542,9 +540,9 @@ body{
     color: #c20909;
   }
   .features .nav-link.active {
-    background: #c20909;
+    background: #ff7301;
     color: #fff;
-    border-color: #c20909;
+    border: 2px solid #fceb00;
   }
   @media (max-width: 768px) {
     .features .nav-link i {
@@ -638,10 +636,14 @@ body{
   # Services
   --------------------------------------------------------------*/
   .red{
-    background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+    background: hsla(22, 100%, 78%, 1);
+
+background: linear-gradient(90deg, hsla(22, 100%, 78%, 1) 0%, hsla(2, 78%, 62%, 1) 100%);
   }
   .residance{
-    background-image: radial-gradient( circle 489px at 49.3% 46.6%,  rgba(255,214,126,1) 0%, rgba(253,200,0,1) 100.2% );
+    background: hsla(298, 68%, 90%, 1);
+
+background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
   }
   .services .icon-box {
     padding: 30px;
@@ -694,7 +696,7 @@ body{
   }
   /* -------------------- */
   .residance .list p{
-    color: white;
+    color: rgb(51, 51, 51);
     font-size: 1em;
   }
   .residance .list ul{
@@ -743,7 +745,7 @@ body{
     transition: all 0.3s ease-in-out;
   }
   .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-    color: #c20909;
+    color: #411d1d;
   }
   .portfolio #portfolio-flters li.filter-active::before, .portfolio #portfolio-flters li.filter-active::after {
     color: #c20909;
@@ -1172,49 +1174,35 @@ body{
   /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-  .contact .info {
-    width: 100%;
+  .contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
     background: #fff;
   }
-  .contact .info i {
+  .contact .info-box i {
+    font-size: 32px;
+    color: #e4155a;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  .contact .info-box h3 {
     font-size: 20px;
-    color: #c20909;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #ffecde;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+    color: #2c4964;
+    font-weight: 700;
+    margin: 10px 0;
   }
-  .contact .info h4 {
-    padding: 0 0 0 60px;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #2a2c39;
-  }
-  .contact .info p {
-    padding: 0 0 0 60px;
-    margin-bottom: 0;
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
     font-size: 14px;
-    color: #555974;
-  }
-  .contact .info .email, .contact .info .phone {
-    margin-top: 40px;
-  }
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #c20909;
-    color: #fff;
+    margin-bottom: 0;
   }
   .contact .php-email-form {
-    width: 100%;
+    box-shadow: 0 0 10px rgba(214, 215, 216, 0.6);
+    padding: 30px;
     background: #fff;
-  }
-  .contact .php-email-form .form-group {
-    padding-bottom: 8px;
   }
   .contact .php-email-form .error-message {
     display: none;
@@ -1254,26 +1242,29 @@ body{
     animation: animate-loading 1s linear infinite;
   }
   .contact .php-email-form input, .contact .php-email-form textarea {
-    border-radius: 0;
+    border-radius: 5px;
     box-shadow: none;
     font-size: 14px;
   }
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: #5846f9;
+  }
   .contact .php-email-form input {
-    height: 44px;
+    padding: 10px 15px;
   }
   .contact .php-email-form textarea {
-    padding: 10px 12px;
+    padding: 12px 15px;
   }
   .contact .php-email-form button[type=submit] {
-    background: #c20909;
+    background: #e424a4;
     border: 0;
     padding: 10px 24px;
     color: #fff;
     transition: 0.4s;
-    border-radius: 50px;
+    border-radius: 5px;
   }
   .contact .php-email-form button[type=submit]:hover {
-    background: #fc8129;
+    background: #fa3d03;
   }
   @-webkit-keyframes animate-loading {
     0% {

@@ -24,26 +24,27 @@ const Navbar = () => {
         
             
         
-        <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="navbar-toggler-icon"></span>
+        <button type="button" className="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="" role="button" ><i class="fa fa-bars text-dark" aria-hidden="true"></i></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-                <a href="index.html" className="nav-item nav-link active">Home</a>
-                <a href="about.html" className="nav-item nav-link">About Us</a>
-                <div className="nav-item dropdown">
-                    <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Real estate investment</a>
+                <a href="/" className="nav-item nav-link active mx-3">Home</a>
+                <a href="#about" className="nav-item nav-link mx-3">About Us</a>
+                <a href="#real" className="nav-item nav-link mx-3">R.E investment</a>
+                {/* <div className="nav-item dropdown">
+                    <a href="/#" className="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">R.E investment</a>
                     <div className="dropdown-menu rounded-0 m-0">
                         <a href="/#" className="dropdown-item">Villas</a>
                         <a href="/#" className="dropdown-item">Appartement</a>
                         <a href="/#" className="dropdown-item">Luxury Container</a>
                         <a href="/#" className="dropdown-item">Lands</a>
                     </div>
-                </div>
-                <a href="contact.html" className="nav-item nav-link">Import and Export</a>
-                <a href="contact.html" className="nav-item nav-link">Tourism in Spain</a>
-                <a href="contact.html" className="nav-item nav-link">Spanish residency</a>
-                <a href="contact.html" className="nav-item nav-link">Contact Us</a>
+                </div> */}
+                <a href="#impexp" className="nav-item nav-link mx-3">Import/Export</a>
+                <a href="#Tourist" className="nav-item nav-link mx-3">Tourism</a>
+                <a href="#residance" className="nav-item nav-link mx-3">Spanish residency</a>
+                <a href="#contact" className="nav-item nav-link mx-3">Contact Us</a>
             </div>
             {/* {user ? user.username : (
           <div className="navItems">
