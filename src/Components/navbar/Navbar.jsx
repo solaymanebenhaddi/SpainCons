@@ -29,9 +29,9 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-                <a href="/" className="nav-item nav-link active mx-3">Home</a>
-                <a href="#about" className="nav-item nav-link mx-3">About Us</a>
-                <a href="#real" className="nav-item nav-link mx-3">R.E investment</a>
+                <a href="/" className="nav-item nav-link active mx-3  " ><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Home</span></a>
+                <a href="#about" className="nav-item nav-link mx-3" ><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">About Us</span></a>
+                <a href="#real" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">R.E investment</span></a>
                 {/* <div className="nav-item dropdown">
                     <a href="/#" className="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">R.E investment</a>
                     <div className="dropdown-menu rounded-0 m-0">
@@ -41,10 +41,10 @@ const Navbar = () => {
                         <a href="/#" className="dropdown-item">Lands</a>
                     </div>
                 </div> */}
-                <a href="#impexp" className="nav-item nav-link mx-3">Import/Export</a>
-                <a href="#Tourist" className="nav-item nav-link mx-3">Tourism</a>
-                <a href="#residance" className="nav-item nav-link mx-3">Spanish residency</a>
-                <a href="#contact" className="nav-item nav-link mx-3">Contact Us</a>
+                <a href="#impexp" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Import/Export</span></a>
+                <a href="#Tourist" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Tourism</span></a>
+                <a href="#residance" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Spanish residency</span></a>
+                <a href="#contact" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Contact Us</span></a>
             </div>
             {/* {user ? user.username : (
           <div className="navItems">
