@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import logo from "./logo.png"
 
-import flag from "./spain.png"
+// import flag from "./spain.png"
 const Navbar = () => {
 
 
