@@ -29,7 +29,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
-                <a href="/" className="nav-item nav-link active mx-3  " ><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Home</span></a>
+                <a href="#hero" className="nav-item nav-link active mx-3  " ><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">Home</span></a>
                 <a href="#about" className="nav-item nav-link mx-3" ><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">About Us</span></a>
                 <a href="#real" className="nav-item nav-link mx-3"><span data-bs-target="#navbarCollapse" data-bs-toggle="collapse">R.E investment</span></a>
                 {/* <div className="nav-item dropdown">
