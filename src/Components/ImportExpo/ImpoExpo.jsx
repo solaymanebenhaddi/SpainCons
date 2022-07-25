@@ -44,7 +44,7 @@ function ImpoExpo() {
             <div class="example-2 card">
                 <div class="wrapper">
                   <div>
-                      <img src={impo} alt="" srcset=""  className="img" />
+                      <img src={impo} alt="" className="img" />
                   </div>
                   <div class="data">
                     <div class="content">

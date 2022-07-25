@@ -25,7 +25,7 @@ const Navbar = () => {
             
         
         <button type="button" className="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="" role="button" ><i class="fa fa-bars text-light" aria-hidden="true"></i></span>
+        <span className="" role="button" ><i className="fa fa-bars text-light" aria-hidden="true"></i></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto">
